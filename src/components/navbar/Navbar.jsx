@@ -1,6 +1,6 @@
+import React from "react";
 import { Badge } from "@material-ui/core";
 import { ShoppingCartOutlined } from "@material-ui/icons";
-import React from "react";
 
 import {
   Center,
