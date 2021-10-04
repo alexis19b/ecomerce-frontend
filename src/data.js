@@ -1,7 +1,9 @@
+import chaqueta from "./components/assets/chaqueta.png";
+import vestido from "./components/assets/vestido.png";
 export const sliderItems = [
   {
     id: 1,
-    img: "https://ss540.liverpool.com.mx/xl/1073552168.jpg",
+    img: vestido,
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5fafd",
@@ -67,7 +69,7 @@ export const popularProducts = [
   },
   {
     id: 7,
-    img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+    img: chaqueta,
   },
   {
     id: 8,
