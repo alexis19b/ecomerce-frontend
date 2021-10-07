@@ -57,6 +57,6 @@ export const ContactItem = styled.div`
   align-items: center;
 `;
 
-export const Payment = styled.div`
-  width: 50%;
+export const Payment = styled.img`
+  width: 47%;
 `;

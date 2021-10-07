@@ -21,8 +21,9 @@ import {
   List,
   ListItem,
   ContactItem,
-  Payment
+  Payment,
 } from "./style";
+import payment from "../assets/payment.png";
 
 const Footer = () => {
   return (
@@ -68,19 +69,16 @@ const Footer = () => {
       <Rigth>
         <Title>Contact</Title>
         <ContactItem>
-          {" "}
-          <Room />
+          <Room style={{ marginRight: "10px" }} />
           0251 Barinas, Venezuela
         </ContactItem>
         <ContactItem>
-          {" "}
-          <Phone /> +58 0414 509 81 52
+          <Phone style={{ marginRight: "10px" }} /> +58 0414 509 81 52
         </ContactItem>
         <ContactItem>
-          {" "}
-          <MailOutline /> contact@ecomerce.com
+          <MailOutline style={{ marginRight: "10px" }} /> contact@ecomerce.com
         </ContactItem>
-        <Payment  src="https://www.citypng.com/public/uploads/preview/-11597193844xtj2mnv37b.png">
+        <Payment src={payment} alt="payment" />
       </Rigth>
     </Container>
   );
