@@ -1,10 +1,9 @@
-import Home from "./pages/home/Home";
+import ProductList from "./pages/productlist/ProductList";
 
 function App() {
   return (
     <div>
-      {" "}
-      <Home />{" "}
+      <ProductList />
     </div>
   );
 }
