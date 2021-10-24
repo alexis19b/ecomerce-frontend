@@ -15,7 +15,7 @@ export const Center = styled.div`
 `;
 export const Rigth = styled.div`
   flex: 1;
-  padding: 20px;
+  padding: 21px;
 `;
 export const Logo = styled.h1``;
 export const Desc = styled.p`
