@@ -17,7 +17,7 @@ export const FilterText = styled.span`
   margin-right: 20px;
 `;
 export const Select = styled.select`
-  padding: 10px;
+  padding: 11px;
   margin-right: 20px;
   border-color: lightgray;
 `;
