@@ -1,9 +1,11 @@
-import { Product } from "./pages/product/Product";
+import React from 'react'
+import Login from "./pages/login/Login";
+
 
 function App() {
   return (
     <div>
-      <Product />
+      <Login />
     </div>
   );
 }
