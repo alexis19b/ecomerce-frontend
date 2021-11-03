@@ -22,7 +22,7 @@ const Navbar = () => {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input />
+            <Input placeholder="Search" />
             <SearchIcon />
           </SearchContainer>
         </Left>
@@ -31,7 +31,7 @@ const Navbar = () => {
         </Center>
         <Rigth>
           <MenuItem>Registro</MenuItem>
-          <MenuItem>Inicio de Sesión</MenuItem>
+          <MenuItem>Iniciar Sesión</MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlined />
