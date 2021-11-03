@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import { mobile } from "../../responsive";
 
 export const Container = styled.div``;
 export const Wrapper = styled.div`
   padding: 20px;
+  ${mobile({padding: "10px"})}
 `;
 export const Title = styled.h1`
   font-weight: 300;
@@ -27,7 +29,9 @@ export const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
 `;
-export const TopTexts = styled.div``;
+export const TopTexts = styled.div`
+  ${mobile({display: "none"})}
+`;
 export const TopText = styled.span`
   text-decoration: underline;
   cursor: pointer;
@@ -47,6 +51,7 @@ export const Summary = styled.div`
 export const Product = styled.div`
     display: flex;
     justify-content: space-between;
+    ${mobile({flexDirection:"column"})}
 `;
 export const ProductDetail = styled.div`
     flex: 2;
@@ -86,10 +91,12 @@ export const ProductAmountContainer = styled.div`
 export const ProductAmount = styled.div`
   font-size: 24px;
   margin: 5px;
+  ${mobile({margin:"5px 15px"})}
 `;
 export const ProductPrice = styled.div`
   font-size: 30px;
   font-weight: 200;
+  ${mobile({marginBottom:"20px"})}
 `;
 export const Hr = styled.hr`
   background-color: #eee;
@@ -108,11 +115,16 @@ export const SummaryItem = styled.div`
 `;
 export const SummaryItemText = styled.span``;
 export const SummaryItemPrice = styled.span``;
-export const Botton = styled.button`
+export const Buttom = styled.button`
   width: 100%;
   padding: 10px;
   background-color: black;
   color: white;
   font-weight: 600;
+`;
 
+export const Bottomd = styled.div`
+  display: flex;
+  justify-content: space-between;
+  ${mobile({ flexDirection: "column" })}
 `;

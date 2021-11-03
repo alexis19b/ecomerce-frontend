@@ -8,7 +8,7 @@ import {
   Wrapper,
   Title,
   Top,
-  Bottom,
+  Bottomd,
   TopButton,
   TopText,
   TopTexts,
@@ -31,7 +31,7 @@ import {
   SummaryItemPrice,
   SummaryTitle,
   SummaryItemText,
-  Botton,
+  Buttom,
 } from "./style";
 
 const Cart = () => {
@@ -49,7 +49,7 @@ const Cart = () => {
           </TopTexts>
           <TopButton type="filled">Checkout Now </TopButton>
         </Top>
-        <Bottom>
+        <Bottomd>
           <Info>
             <Product>
               <ProductDetail>
@@ -122,9 +122,9 @@ const Cart = () => {
               <SummaryItemText>Total</SummaryItemText>
               <SummaryItemPrice>$ 80</SummaryItemPrice>
             </SummaryItem>
-            <Botton>CHECKOUT NOW</Botton>
+            <Buttom>CHECKOUT NOW</Buttom>
           </Summary>
-        </Bottom>
+        </Bottomd>
       </Wrapper>
       <Footer />
     </Container>

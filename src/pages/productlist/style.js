@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mobile } from "../../responsive";
 
 export const Container = styled.div``;
 export const Title = styled.h1`
@@ -10,15 +11,20 @@ export const FilterContainer = styled.div`
 `;
 export const Filter = styled.div`
   margin: 20px;
+  ${mobile({margin: "0px 20px", display: "flex", flexDirection:"column"})};
 `;
 export const FilterText = styled.span`
   font-weight: 600;
   font-size: 20px;
   margin-right: 20px;
+  ${mobile({marginRight: "15px"})};
 `;
 export const Select = styled.select`
-  padding: 11px;
+  padding: 10px;
   margin-right: 20px;
   border-color: lightgray;
+  ${mobile({margin: "6px 0px"})};
+
+
 `;
 export const Option = styled.option``;
