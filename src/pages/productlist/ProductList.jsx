@@ -14,7 +14,7 @@ import {
   Option,
 } from "./style";
 
-const ProductList = () => {
+export const ProductList = () => {
   return (
     <Container>
       <Anuncios />
@@ -60,5 +60,3 @@ const ProductList = () => {
     </Container>
   );
 };
-
-export default ProductList;
